@@ -11,7 +11,7 @@ if st.button("Saludar!"):
     else:
         st.write(f"Hola {nombre}! Yo soy JB, ¿cómo puedo ayudarte?")
 
-MODELOS = ['llama-3.1-8b-instant', 'llama-3.3-70b-versatile', 'deepseek-r1-distill-llama-70b']
+MODELOS = ['llama-3.1-8b-instant', 'llama-3.3-70b-versatile']
 
 def configurar_pagina():
     st.title("Chat JB")
@@ -76,4 +76,5 @@ def main ():
                     st.rerun()
 
 if __name__ == "__main__":
+
     main()
